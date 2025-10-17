@@ -1,6 +1,6 @@
 import { useLocation, Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import profileImg from "../assets/profile3.jpg";
+import profileImg from "../assets/profile.jpeg";
 
 function Navigation() {
   const location = useLocation();

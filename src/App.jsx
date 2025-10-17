@@ -17,7 +17,7 @@ import stanfordImage from "./assets/stanford.JPG";
 import scaleImage from "./assets/scale.JPG";
 
 // Import the navigation profile image to preload it
-import profileImg from "./assets/profile3.jpg";
+import profileImg from "./assets/profile.jpeg";
 
 import "./App.css";
 
