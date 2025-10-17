@@ -201,7 +201,7 @@ function Home() {
           <p>
             If you want to talk with me about something interesting, feel free to reach out at{" "}
             <ExternalLink href="mailto:integraloftime9@gmail.com">
-              integraloftime at gmail dot com
+              integraloftime at gmail dot com 
             </ExternalLink>
              or message me on my socials.
           </p>
