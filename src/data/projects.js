@@ -4,7 +4,7 @@ import LettersToMyMom from "../components/works/LettersToMyMom";
 import DiffusionMe from "../components/works/DiffusionMe";
 
 // Import project images
-import whatdoyoudreamImage from "../assets/projects/dream.jpeg";
+import tweezerImage from "../assets/projects/tweezerOil";
 import lettersToMyMomImage from "../assets/projects/letters.jpg";
 import pearlImage from "../assets/projects/pearl.jpeg";
 import pearlMobileImage from "../assets/projects/pearlios.png";
@@ -13,7 +13,7 @@ import diffusionMeImage from "../assets/projects/diffusionme.png";
 
 import tangentImage from "../assets/projects/tangent.png";
 
-import drawJournalImage from "../assets/projects/drawjournal.jpg";
+import dreamInk from "../assets/projects/dreamInk";
 
 // import cognitionEssay from "./projects/essay.pdf";
 
@@ -25,7 +25,7 @@ export const projects = [
     creativeRating: 0.75,
     path: null,
     component: null,
-    image: drawJournalImage,
+    image: dreamInk,
     status:
       "a non-scientific paper of understanding the role of cognition in consciousness",
     // links: [
@@ -39,16 +39,16 @@ export const projects = [
     creativeRating: 0.8,
     path: "/work/what-do-you-dream-about",
     component: WhatDoYouDreamAbout,
-    image: whatdoyoudreamImage,
+    image: tweezerImage,
     status: "working alongside professor on cognitive processes of facial recognition",
-    links: [
-      {
-        label: "GitHub",
-        url: "https://github.com/49emily/what-do-you-dream-about",
-        icon: "github",
-      },
-      // { label: "Demo", url: "https://what-do-you-dream-about.com", icon: "external" },
-    ],
+    // links: [
+    //   {
+    //     label: "GitHub",
+    //     url: "https://github.com/49emily/what-do-you-dream-about",
+    //     icon: "github",
+    //   },
+    //   // { label: "Demo", url: "https://what-do-you-dream-about.com", icon: "external" },
+    // ],
   },
   {
     title: "chiral collective",
