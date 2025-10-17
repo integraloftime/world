@@ -286,7 +286,7 @@ function SelectedWork() {
         <h2 className="text-3xl mb-8 text-primary">
           <i>Visual Art</i>
         </h2>
-        <iframe
+        {/* <iframe
           src="https://v2-embednotion.com/104b4250a017802b8390d94e5a2eea36"
           style={{
             width: "100%",
@@ -295,7 +295,7 @@ function SelectedWork() {
             borderRadius: "10px",
             padding: "none",
           }}
-        ></iframe>
+        ></iframe> */}
       </section>
     </div>
   );

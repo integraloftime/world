@@ -15,20 +15,21 @@ import tangentImage from "../assets/projects/tangent.png";
 
 import drawJournalImage from "../assets/projects/drawjournal.jpg";
 
+import cognitionEssay from "./projects/essay.pdf";
+
 export const projects = [
   {
-    title: "visual artwork",
-    year: "none",
+    title: "essay on the limits of Jung's theories of cognition",
+    year: "2025",
     completionDate: "mm/dd/yyyy",
     creativeRating: 0.75,
     path: null,
     component: null,
     image: drawJournalImage,
     status:
-      "digital and physical illustrations",
+      "a non-scientific paper of understanding the role of cognition in consciousness",
     links: [
-      { label: "Live Site", url: "https://journaling.ink", icon: "external" },
-      { label: "GitHub", url: "https://github.com/49emily/journal-draw", icon: "github" },
+      { label: "pdf", url: cognitionEssay, icon: "external" },
     ],
   },
   {

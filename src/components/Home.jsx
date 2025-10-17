@@ -4,15 +4,15 @@ import { showImage, hideImage } from "../utils";
 
 function Home() {
   // Topics for dice roll
-  const topics = [
-    "nature of consciousness",
-    "cognition",
-    "making a guava flavored perfume",
-    "feeling the spectrum of emotions",
-    "mental health",
-    "limitations of language and epistemic systems",
-    "having fun",
-  ];
+  // const topics = [
+  //   "nature of consciousness",
+  //   "cognition",
+  //   "making a guava flavored perfume",
+  //   "feeling the spectrum of emotions",
+  //   "mental health",
+  //   "limitations of language and epistemic systems",
+  //   "having fun",
+  // ];
 
   const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
   const [usedTopicIndices, setUsedTopicIndices] = useState(new Set([0])); // Track used topics, start with index 0
@@ -116,18 +116,20 @@ function Home() {
       <div className="max-w-2xl relative">
         <div className="text-2xl tracking-tight text-primary">
           <p className="mb-6">
-            Welcome! My name is{" "}
+            Welcome!!!
+            {/* {" "}
             <span
               className="link cursor-pointer"
               onClick={handleNameInteraction}
-              onMouseEnter={!isMobile ? () => setName("张思涵") : undefined}
-              onMouseLeave={!isMobile ? () => setName("Emily Zhang") : undefined}
+              onMouseEnter={!isMobile ? () => setName("Meeo") : undefined}
+              onMouseLeave={!isMobile ? () => setName("Kallen") : undefined}
             >
               {name}.
-            </span>
+            </span> */}
           </p>
           <p className="mb-6">
-            I'm an engineer, artist, and creative technologist born in{" "}
+            I'm interested in psychology, neuroscience, philosophy, math, linguistics. My identity is ephemeral, but in this life I am a student, thinker, and creator.
+            {/* {" "}
             <span
               className="link cursor-pointer image-trigger"
               onClick={() => handleImageInteraction("nanjing")}
@@ -154,14 +156,32 @@ function Home() {
             >
               San Francisco
             </span>
-            .
+            . */}
           </p>
           <p className="mb-6">
-            I care deeply about generative interfaces, tools for thought and creativity, and
-            programming as an art form. I want to create beautiful things that I am proud of.
-          </p>
-          <p className="mb-6">
-            I've recently been working on / thinking about{" "}
+            Feel free to explore my thoughts about these various topics, or view them in a visual-audio format on my youtube.
+            {" "}
+            <span
+              className="link cursor-pointer image-trigger"
+              onClick={() => handleImageInteraction("placeholder")}
+              onMouseEnter={!isMobile ? () => handleImageInteraction("placeholder", true) : undefined}
+              onMouseLeave={!isMobile ? () => handleImageInteraction("placeholder", false) : undefined}
+            >
+              what consciousness is
+            </span>
+             -
+            {" "}
+            <span
+              className="link cursor-pointer image-trigger"
+              onClick={() => handleImageInteraction("placeholder")}
+              onMouseEnter={!isMobile ? () => handleImageInteraction("placeholder", true) : undefined}
+              onMouseLeave={!isMobile ? () => handleImageInteraction("placeholder", false) : undefined}
+            >
+              science is religion/limitations of all epistemological systems
+            </span>
+             -
+            psychological component of all abuse - emotion being the substrate of humans
+            {/* {" "}
             <span
               className="link cursor-pointer"
               onMouseEnter={() => handleDiceInteraction(true)}
@@ -176,14 +196,14 @@ function Home() {
                 </span>
               )}
             </span>
-            .
+            . */}
           </p>
           <p>
             If you want to talk with me about something interesting, feel free to reach out at{" "}
             <ExternalLink href="mailto:integraloftime9@gmail.com">
               integraloftime at gmail dot com
             </ExternalLink>
-            .
+             or message me on my socials.
           </p>
         </div>
       </div>
