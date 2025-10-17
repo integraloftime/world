@@ -1,9 +1,9 @@
-// import { useLocation, Link, useNavigate } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import profileImg from "../assets/profile.jpeg";
 
 function Navigation() {
-  // const location = useLocation();
+  const location = useLocation();
   const navigate = useNavigate();
   const [distance, setDistance] = useState(null);
   const [locationError, setLocationError] = useState(null);
