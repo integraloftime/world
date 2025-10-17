@@ -13,7 +13,7 @@ import diffusionMeImage from "../assets/projects/diffusionme.png";
 
 import tangentImage from "../assets/projects/tangent.png";
 
-import dreamInk from "../assets/projects/dreamInk";
+import dreamInk from "../assets/projects/dreamInk.jpg";
 
 // import cognitionEssay from "./projects/essay.pdf";
 
