@@ -4,7 +4,7 @@ import LettersToMyMom from "../components/works/LettersToMyMom";
 import DiffusionMe from "../components/works/DiffusionMe";
 
 // Import project images
-import tweezerImage from "../assets/projects/tweezerOil";
+import tweezerImage from "../assets/projects/tweezerOil.jpg";
 import lettersToMyMomImage from "../assets/projects/letters.jpg";
 import pearlImage from "../assets/projects/pearl.jpeg";
 import pearlMobileImage from "../assets/projects/pearlios.png";
