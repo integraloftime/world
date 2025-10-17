@@ -60,18 +60,7 @@ function DiffusionMe({ links = [] }) {
           </div>
           <p className="text-primary text-lg font-normal w-full md:w-1/2">
             <i>
-              in the style of zsh-oil, 1girl, leaning on railing, oval face smooth tan skin, subtle
-              asym mouth eyes, medium forehead, dark straight thick eyebrows, almond brown eyes
-              medium lashes, gaze slightly past camera, straight medium nose rounded tip, full
-              closed lips neutral, left ear silver stud earring, long straight black hair middle
-              part stray strands, natural makeup soft blush muted pink lips, cream satin low v-neck
-              spaghetti-strap dress loose fit, shoulders collarbones upper chest exposed, right arm
-              extended back hand on railing, left arm bent on hip, slight forward lean torso turned
-              slightly left, head upright slight tilt left, background, green metal structure left
-              side vertical beams matte muted green with bolts, calm blue-teal water spans horizon
-              gentle ripples, sunset sky upper band gradient blue to orange patchy clouds, distant
-              dark cityscape silhouette along horizon, green-white metal guard railing runs behind
-              subject, view from eye-level slight left front
+              meow
             </i>
           </p>
         </div>
@@ -84,19 +73,14 @@ function DiffusionMe({ links = [] }) {
           <p className=" text-sm mt-2 italic">Notice the watercolor borders!</p>
         </div>
         <p className="text-primary text-lg font-light">
-          The LoRA was able to retain surprising formalistic elements, like the shading on the hair,
-          the messy way I paint moving strands of hair, the sheen on the canvas, the general tones
-          and hues of the shadows (especially on the skin), and the border from artist's tape on my
-          watercolor portraits. Also all the asian girls look vaguely like my cousin, who appears
-          many times in the works I trained on.
+          meow
         </p>
         <div>
           <img src={falImage} alt="fal" className="w-full max-w-4xl" />
           <p className=" text-sm mt-2 italic">Notice the hair!!!</p>
         </div>
         <p className="text-primary text-lg font-light">
-          You can see how safely within distribution the LoRA stays in the following comparisons:
-          (left is my original artwork, right is a generated sample).
+          meow
         </p>
         <div className="flex flex-row items-center gap-4 justify-between w-full">
           <img src={letterPainting} alt="DiffusionMe" className="w-1/2" />
