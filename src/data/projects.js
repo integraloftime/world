@@ -15,7 +15,7 @@ import tangentImage from "../assets/projects/tangent.png";
 
 import drawJournalImage from "../assets/projects/drawjournal.jpg";
 
-import cognitionEssay from "./projects/essay.pdf";
+// import cognitionEssay from "./projects/essay.pdf";
 
 export const projects = [
   {
@@ -28,9 +28,9 @@ export const projects = [
     image: drawJournalImage,
     status:
       "a non-scientific paper of understanding the role of cognition in consciousness",
-    links: [
-      { label: "pdf", url: cognitionEssay, icon: "external" },
-    ],
+    // links: [
+    //   { label: "pdf", url: cognitionEssay, icon: "external" },
+    // ],
   },
   {
     title: "psychology research",
