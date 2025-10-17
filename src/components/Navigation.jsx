@@ -11,7 +11,7 @@ function Navigation() {
   const [isTyping, setIsTyping] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Emily's approximate location (Nanjing)
+  // approximate location
   const emilyLocation = { lat: 32.0584, lng: 118.7965 };
 
   // Calculate distance between two points using Haversine formula

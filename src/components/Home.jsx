@@ -5,13 +5,13 @@ import { showImage, hideImage } from "../utils";
 function Home() {
   // Topics for dice roll
   const topics = [
-    "machine understandings of love",
-    "browser engines",
-    "my post-grad trip to Asia",
-    "interfaces that scale",
+    "nature of consciousness",
+    "cognition",
+    "making a guava flavored perfume",
+    "feeling the spectrum of emotions",
     "mental health",
-    "creative agency in the age of AI",
-    "love as a form of labor",
+    "limitations of language and epistemic systems",
+    "having fun",
   ];
 
   const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
@@ -179,9 +179,9 @@ function Home() {
             .
           </p>
           <p>
-            If my work resonates with you, feel free to reach out anytime at{" "}
-            <ExternalLink href="mailto:emily49@stanford.edu">
-              emily49 at stanford dot edu
+            If you want to talk with me about something interesting, feel free to reach out at{" "}
+            <ExternalLink href="mailto:integraloftime9@gmail.com">
+              integraloftime at gmail dot com
             </ExternalLink>
             .
           </p>
