@@ -11,7 +11,7 @@ import pearlMobileImage from "../assets/projects/pearlios.png";
 import stylescapeImage from "../assets/projects/stylescape.png";
 import diffusionMeImage from "../assets/projects/diffusionme.png";
 
-import tangentImage from "../assets/projects/tangent.png";
+import placeholderImage from "../assets/projects/placeholder.jpg";
 
 import dreamInk from "../assets/projects/dreamInk.jpg";
 
@@ -116,7 +116,7 @@ export const projects = [
     creativeRating: 0.2,
     path: null,
     component: null,
-    image: tangentImage,
+    image: placeholderImage,
     status: "customizing an llm to derive semantic and grammatical patterns and their cognitive correlates",
     //links: [
     //  {
@@ -133,7 +133,7 @@ export const projects = [
     creativeRating: 0.2,
     path: null,
     component: null,
-    image: tangentImage,
+    image: placeholderImage,
     status: "my dream job",
     //links: [
     //  {
@@ -150,7 +150,7 @@ export const projects = [
     creativeRating: 0.2,
     path: null,
     component: null,
-    image: tangentImage,
+    image: placeholderImage,
     status: "a perhaps juvenile absurdity I cannot live without",
     //links: [
     //  {
