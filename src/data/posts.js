@@ -21,12 +21,12 @@ export const posts = [
   },
 ];
 
-// Helper function to get projects with routes (for routing setup)
+// Helper function to get posts with routes (for routing setup)
 export const getPostRoutes = () => {
-  // return posts.filter((project) => project.path && project.component);
+  return posts.filter((post) => post.path && post.component);
 };
 
 // Helper function to get project by path
 export const getPostByPath = (path) => {
-  return projects.find((project) => project.path === path);
+  return posts.find((post) => post.path === path);
 };

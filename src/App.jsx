@@ -185,6 +185,13 @@ function AppContent() {
                     element={<project.component links={project.links} />}
                   />
                 ))}
+                {getPostRoutes().map((posts) => (
+                  <Route
+                    key={post.path}
+                    path={post.path}
+                    element={<post.component links={post.links} />}
+                  />
+                ))}
               </Routes>
             </main>
           </div>
