@@ -1,8 +1,8 @@
 // Import project components
-import WhatDoYouDreamAbout from "../components/works/WhatDoYouDreamAbout";
+// import WhatDoYouDreamAbout from "../components/works/WhatDoYouDreamAbout";
 
 // Import project images
-import tweezerImage from "../assets/projects/tweezer.jpg";
+// import tweezerImage from "../assets/projects/tweezer.jpg";
 
 export const posts = [
   {

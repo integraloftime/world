@@ -128,7 +128,7 @@ function Home() {
             </span> */}
           </p>
           <p className="mb-6">
-            I'm interested in psychology, neuroscience, philosophy, math, linguistics. My identity is ephemeral, but in this life I am a student, thinker, and creator. I had to reluctantly learn basic coding for some of my projects :c
+            I'm interested in psychology, neuroscience, philosophy, math, linguistics. My identity is ephemeral, but in this life I am a student, thinker, and creator. I had to reluctantly learn basic coding too
             {/* {" "}
             <span
               className="link cursor-pointer image-trigger"
