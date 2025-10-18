@@ -12,7 +12,7 @@ export const posts = [
     creativeRating: 0.75,
     path: null,
     component: null,
-    image: dreamInk,
+    image: null,
     status:
       "a non-scientific paper of understanding the role of cognition in consciousness",
     // links: [
