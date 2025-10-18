@@ -7,8 +7,11 @@ import SelectedWork from "./components/SelectedWork";
 import ThemeToggle from "./components/ThemeToggle";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
+import Writing from "./components/Writing";
+
 // Import projects data for routing
 import { getProjectRoutes } from "./data/projects";
+import { getPostRoutes } from "./data/posts";
 
 // Import images for global overlay
 import nanjingImage from "./assets/nanjing.jpg";
@@ -171,6 +174,7 @@ function AppContent() {
               <Routes>
                 <Route path="/" element={<SelectedWork />} />
                 <Route path="/about" element={<Home />} />
+                <Route path="/writing" element={<Writing />} />
                 {/* <Route path="/home" element={<Home />} /> */}
 
                 {/* Dynamic project routes */}

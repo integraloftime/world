@@ -82,9 +82,9 @@ function Navigation() {
   }, [isMobileMenuOpen]);
 
   const navItems = [
-    { path: "/", label: "Side Quests" },
-    // { path: "/about", label: "About" },
+    { path: "/", label: "Main" },
     { path: "/about", label: "About" },
+    { path: "/writing", label: "Writing" },
   ];
 
   const toggleMobileMenu = () => {
