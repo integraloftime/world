@@ -2,22 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import ExternalLink from "./ExternalLink";
 import { showImage, hideImage } from "../utils";
 
-function Home() {
-  // Topics for dice roll
-  // const topics = [
-  //   "nature of consciousness",
-  //   "cognition",
-  //   "making a guava flavored perfume",
-  //   "feeling the spectrum of emotions",
-  //   "mental health",
-  //   "limitations of language and epistemic systems",
-  //   "having fun",
-  // ];
-
-  const [currentTopicIndex, setCurrentTopicIndex] = useState(0);
+function Writing() {
   const [usedTopicIndices, setUsedTopicIndices] = useState(new Set([0])); // Track used topics, start with index 0
-  const [showDice, setShowDice] = useState(false);
-  const [name, setName] = useState("Emily Zhang");
   const [isMobile, setIsMobile] = useState(false);
   const [isNameChinese, setIsNameChinese] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
@@ -73,15 +59,6 @@ function Home() {
     setUsedTopicIndices(new Set([...currentUsedIndices, randomIndex]));
   };
 
-  const handleNameInteraction = () => {
-    if (isMobile) {
-      // Toggle name on click for mobile
-      const newState = !isNameChinese;
-      setIsNameChinese(newState);
-      setName(newState ? "张思涵" : "Emily Zhang");
-    }
-  };
-
   const handleImageInteraction = (imageName, isEnter = true) => {
     if (isMobile) {
       // Click to show, click outside to hide for mobile
@@ -128,82 +105,7 @@ function Home() {
             </span> */}
           </p>
           <p className="mb-6">
-            I'm interested in psychology, neuroscience, philosophy, math, linguistics. My identity is ephemeral, but in this life I am a student, thinker, and creator. I had to reluctantly learn basic coding for some of my projects :c
-            {/* {" "}
-            <span
-              className="link cursor-pointer image-trigger"
-              onClick={() => handleImageInteraction("nanjing")}
-              onMouseEnter={!isMobile ? () => handleImageInteraction("nanjing", true) : undefined}
-              onMouseLeave={!isMobile ? () => handleImageInteraction("nanjing", false) : undefined}
-            >
-              Nanjing, China
-            </span>
-            , currently residing in the liminal space between{" "}
-            <span
-              className="link cursor-pointer image-trigger"
-              onClick={() => handleImageInteraction("stanford")}
-              onMouseEnter={!isMobile ? () => handleImageInteraction("stanford", true) : undefined}
-              onMouseLeave={!isMobile ? () => handleImageInteraction("stanford", false) : undefined}
-            >
-              Stanford University
-            </span>{" "}
-            and{" "}
-            <span
-              className="link cursor-pointer image-trigger"
-              onClick={() => handleImageInteraction("sf")}
-              onMouseEnter={!isMobile ? () => handleImageInteraction("sf", true) : undefined}
-              onMouseLeave={!isMobile ? () => handleImageInteraction("sf", false) : undefined}
-            >
-              San Francisco
-            </span>
-            . */}
-          </p>
-          <p className="mb-6">
-            Feel free to explore my thoughts about these various topics, or view them in a visual-audio format on my youtube.
-            {" "}
-            <span
-              className="link cursor-pointer image-trigger"
-              onClick={() => handleImageInteraction("placeholder")}
-              onMouseEnter={!isMobile ? () => handleImageInteraction("placeholder", true) : undefined}
-              onMouseLeave={!isMobile ? () => handleImageInteraction("placeholder", false) : undefined}
-            >
-              what consciousness is
-            </span>
-             -
-            {" "}
-            <span
-              className="link cursor-pointer image-trigger"
-              onClick={() => handleImageInteraction("placeholder")}
-              onMouseEnter={!isMobile ? () => handleImageInteraction("placeholder", true) : undefined}
-              onMouseLeave={!isMobile ? () => handleImageInteraction("placeholder", false) : undefined}
-            >
-              science is religion/limitations of all epistemological systems
-            </span>
-             -
-            psychological component of all abuse - emotion being the substrate of humans
-            {/* {" "}
-            <span
-              className="link cursor-pointer"
-              onMouseEnter={() => handleDiceInteraction(true)}
-              onMouseLeave={() => handleDiceInteraction(false)}
-              onClick={rollDice}
-              title="Click to explore other topics I'm working on"
-            >
-              {topics[currentTopicIndex]}
-              {(showDice || isMobile) && (
-                <span className="text-lg hover:scale-110 transition-transform inline-block ml-1">
-                  🎲
-                </span>
-              )}
-            </span>
-            . */}
-          </p>
-          <p>
-            If you want to talk with me about something interesting, feel free to reach out at{" "}
-            <ExternalLink href="mailto:integraloftime9@gmail.com">
-              integraloftime at gmail dot com 
-            </ExternalLink>
-             or message me on my socials.
+            adsf
           </p>
         </div>
       </div>
@@ -211,4 +113,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Writing;
