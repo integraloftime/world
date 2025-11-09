@@ -9,7 +9,6 @@ export const posts = [
     title: "essay on the limits of Jung's theories of cognition",
     year: "2025",
     completionDate: "mm/dd/yyyy",
-    creativeRating: 0.75,
     path: null,
     component: null,
     image: null,
